@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Dessert</title>
+    <link rel="stylesheet" href="practice_CSS/reset.css">
+    <link rel="stylesheet" href="practice_CSS/bootstrap-grid.min拷貝.css">
+    <link rel="stylesheet" href="practice_CSS/fullpage.css">
+    <link rel="stylesheet" href="practice_CSS/practice.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- Start header -->
+        <header class="header">
+            <div class="container">
+                <div class="navbar u-clearfix">
+                    <a href="#" class="navbar__logo"></a>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item" href="#firstPage">Welcome</a></li>
+                          <li><a class="dropdown-item" href="#secondPage">About</a></li>
+                          <li><a class="dropdown-item" href="#thirdPage">Dessert</a></li>
+                          <li><a class="dropdown-item" href="#fourthPage">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div id="overlay" class="nav u-clearfix">
+                        <ul id="js-Menu" class="nav__menu u-clearfix">
+                            <li data-menuanchor="firstPage" class="active nav__menu__item"><a href="#firstPage">Welcome</a></li>
+                            <li data-menuanchor="secondPage" class="nav__menu__item"><a href="#secondPage">About us</a></li>
+                            <li data-menuanchor="thirdPage" class="nav__menu__item"><a href="#thirdPage">Dessert</a></li>
+                            <li data-menuanchor="fourthPage" class="nav__menu__item"><a href="#fourthPage">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+
+        <div id="fullpage">
+
+            <!-- Start hero -->
+
+            <div class="section hero hero-bg" data-anchor="firstPage">
+                <div class="container">
+                    <div class="heading">
+                        Joy  Dessert
+                    </div>
+                    <span class="heading__span"></span>
+                    <div class="hero__subtitle">
+                        makes you joy
+                    </div>
+                    <a href="#" class="btn hero__btn">View More</a>
+                </div>
+            </div>
+
+            <!-- End hero -->
+
+            <!-- Start about -->
+
+            <div class="section about" data-anchor="secondPage">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="about__title">About us</h2>
+                            <p class="about__subtitle">我們堅持以嚴選的食材，以及用心烘焙的技術，全程手工製作，不添加任何防腐劑，製作出安心高品質的甜點。</p>
+                        </div>
+                    </div>
+                    <div class="row about__box1">
+                        <div class="col-xl-2 col-lg-3 align-self-center col-md-5 offset-md-1 offset-lg-0">
+                            <div class="about__imgbox">
+                                <img src="practice_image/egg.jpeg" alt="" class="about__img about__img1">
+                            </div>
+                        </div>
+                        <div class="about__info col-xl-4 col-lg-3 col-md-6 ">
+                            <h3 class="about__item">台灣嘉義牧場直送雞蛋</h3>
+                            <p class="about_text">JOY DESSERT烘焙選用來自台灣嘉義在地認真經營將近五十年的牧場，通過多項認證，堅持不添加任何藥物的天然優質好牧場，對每一顆母雞與雞蛋都無微不至的用愛照顧，而且牧場主人都會給每隻母雞聽交響樂呦！</p>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 align-self-center col-md-5 offset-md-1 offset-lg-0">
+                            <div class="about__imgbox">
+                                <img src="practice_image/butter.jpeg" alt="" class="about__img about__img2">
+                            </div>
+                        </div>
+                        <div class="about__info col-xl-4 col-lg-3 col-md-6">
+                            <h3 class="about__item">英國藍風車純正鮮奶油</h3>
+                            <p class="about_text">不僅不同於一般使用的化學合成鮮奶油，我們選用的是連天然增稠劑與任何其他添加都沒有，來自英國北愛爾蘭，空氣清新、水質良好的環境生長的健康乳牛所產的新鮮牛奶做成的藍風車鮮奶油，乳脂肪完全保留含量高達38%！</p>
+                        </div>
+                    </div>
+                    <div class="row about__info-botoom">
+                        <div class="col-xl-2 col-lg-3 align-self-center col-md-5 offset-md-1 offset-lg-0">
+                            <div class="about__imgbox">
+                                <img src="practice_image/coco.jpeg" alt="" class="about__img about__img3">
+                            </div>
+                        </div>
+                        <div class="about__info col-xl-4 col-lg-3 col-md-6">
+                            <h3 class="about__item">荷蘭天然可可粉</h3>
+                            <p class="about_text">JOY DESSERT所有的巧克力烘培都使用這款來自荷蘭的高脂可可粉，使用的都是自己生產的可可豆子！堅持100%天然，不添加任何化學添加物、高規格的品質檢測，獲得可可認證標章！</p>
+                        </div>
+                        <div class="col-xl-2 col-lg-3 align-self-center col-md-5 offset-md-1 offset-lg-0">
+                            <div class="about__imgbox">
+                                <img src="practice_image/almond.jpeg" alt="" class="about__img about__img4">
+                            </div>
+                        </div>
+                        <div class="about__info col-xl-4 col-lg-3 col-md-6">
+                            <h3 class="about__item">美國藍鑽杏仁粉</h3>
+                            <p class="about_text">每一批甜點在製作前，師傅會再三把關每批原料的新鮮與品質狀況，當初為了找出品質好新鮮度高的無糖烘培基礎粉，我們尋找了十幾家的原料一一觀察本身的新鮮度和嗅聞香氣，然後再請師傅每種烘培出來，用成品來做出最後最客觀的選定。                          </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- End about -->
+
+            <!-- Start dessert p1-->
+            <div class="section" data-anchor="thirdPage">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="dessert__title">JOY Dessert</h2>
+                        </div>
+                    </div>
+                    <div class="row dessert__item align-items-center">
+                        <div class="col-lg-4 offset-xl-1 offset-xxl-2 offset-lg-1 col-md-12">
+                            <div class="dessert__imgbox dessert__imgbox1">
+                                <img src="practice_image/dessert1.jpeg" alt="" class="dessert__img1">
+                            </div>
+                        </div>
+                        <div class="col-xl-5 offset-xl-1 offset-xxl-0 col-lg-5 offset-lg-1 col-md-7 offset-md-3">
+                            <div class="dessert__item1">
+                              <h2 class="dessert__title1">漸層草莓鮮奶酪</h2>  
+                              <p class="dessert__text1">以100%純鮮乳製成，滑溜棉密的口感，濃濃的奶香，再淋上全手工製作的鮮甜草莓果醬！微酸微甜的味道馬上在口中散開！由老闆親自前往產地，並親手挑選每一顆新鮮草莓所製成的果醬不會過甜！</p>
+                              <a href="#" class="btn dessert__btn">Order now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row dessert__item dessert__item-center align-items-center">
+                        <div class="col-lg-4 offset-xxl-1 md-2 col-md-6 offset-md-2 offset-lg-0">
+                            <div class="dessert__item4">
+                                <h2 class="dessert__title4">濃醇咖啡提拉米蘇</h2>  
+                                <p class="dessert__text4">JOY DESSERT這款提拉米蘇並非使用一般作法的馬茲卡彭起司（Mascarpone），而是用瑞可塔起司（Ricotta）代替，帶著濃郁奶香，淋上巧克力甘納許後再刷上橙皮增添清香風味，入口的風味相當令人沉醉！</p>
+                                <a href="#" class="btn dessert__btn">Order now</a>
+                              </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 md-1">
+                            <div class="dessert__imgbox dessert__imgbox4">
+                                <img src="practice_image/dessert4.jpeg" alt="" class="dessert__img4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End dessert p1-->
+
+            <!-- Start dessert p2-->
+
+            <div class="container">
+                <div class="row dessert__item align-items-center">
+                    <div class="col-lg-4 offset-xl-1 offset-xxl-2 offset-lg-1 col-md-12">
+                        <div class="dessert__imgbox dessert__imgbox3">
+                            <img src="practice_image/dessert3.jpeg" alt="" class="dessert__img3">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-xxl-0 offset-xl-1 offset-lg-1 col-md-8 offset-md-2">
+                        <div class="dessert__item3">
+                          <h2 class="dessert__title3">燕麥葡萄乾核桃餅乾</h2>  
+                          <p class="dessert__text3">鑲滿葡萄乾與核桃的餅乾體，香氣很足，葡萄乾的軟甜融合核桃的脆香，層次豐富，再加上燕麥樸實的香氣，整體口感不會過於花俏，反而有種清甜淡香，跟著創辦人吃就是不會失誤！</p>
+                          <a href="#" class="btn dessert__btn">Order now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row dessert__item dessert__item-bottom">
+                    <div class="col-lg-4 offset-lg-1 md-2 col-md-7 offset-md-2">
+                        <div class="dessert__item2">
+                            <h2 class="dessert__title2">老奶奶檸檬蛋糕</h2>  
+                            <p class="dessert__text2">捨棄高負擔的糖霜，吃起來格外清爽。咀嚼時酸酸甜甜的檸檬香氣，讓人一吃就愛上！選用台灣在地食材「香檸」獨特冷冽的酸澀香味提拉，質地介於海綿蛋糕與磅蛋糕之間，組織濕潤扎實卻又不失彈性哦！</p>
+                            <a href="#" class="btn dessert__btn dessert__btn-right">Order now</a>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 md-1 col-md-12">
+                        <div class="dessert__imgbox dessert__imgbox2">
+                            <img src="practice_image/dessert2.jpeg" alt="" class="dessert__img2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End dessert p2-->
+
+            <!-- Start contact-->
+            
+            <div class="section contact" data-anchor="fourthPage">
+                <div class="container">
+                    <div class="row contact__allTitle">
+                        <div class="col-sm-12">
+                            <h2 class="contact__title">Contact us</h2>
+                            <p class="contact__subtitle">Let's join the dessert party!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-1 col-md-10 offset-md-1 contact__allInfo contact__info md-2">
+                            <h2 class="contact__text1">一起來玩吧！</h2>
+                            <p class="contact__text2">我們希望把對於甜點的那份堅持與信念，分享給大家！讓現代人忙碌的生活中，能夠感受到甜點帶來的幸福，並且會記得這份幸福，是來自為甜點而活的JOY DESSERT！歡迎帶著一顆期待的心來我們的工作室玩耍，再一併把你們用心做完的甜點帶回家享用吧！</p>
+                            <div class="contact__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                                  </svg>
+                                <a href="mailTo:enjoydessert@gmail.com" class="contact__link">enjoydessert@gmail.com</a>
+                            </div>
+                            <div class="contact__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+                                    <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+                                  </svg>
+                                <a href="tel:0987917291" class="contact__link">0987917291</a>
+                            </div>
+                            <div class="contact__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                  </svg>
+                                <a href="https://bit.ly/3rwwmES"  target="_blank" class="contact__link">新北市新店區甜點街91號7樓之2</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 md-1 contact__allInfo contact__pic">
+                            <div class="contact__imgbox">
+                                <img src="practice_image/contact.jpeg" alt="" class="contact__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End contact-->
+
+            <!-- Start footer-->
+            <div class="footer">
+                <div class="container">
+                    <a href="#" class="footer__logo"></a>
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-3">
+                            <ul>
+                                <li><a href="#firstPage" class="footer__link">Welcome</a></li>
+                                <li><a href="#secondPage" class="footer__link" >About</a></li>
+                                <li><a href="#thirdPage" class="footer__link">Dessert</a></li>
+                                <li><a href="#fourthPage" class="footer__link">Conatct</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-2 col-lg-3">
+                            <ul>
+                                <li><a href="#" class="footer__link">FAQ</a></li>
+                                <li><a href="#" class="footer__link">Order</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4 col-lg-3">
+                            <h5 class="footer__contact">
+                                Email
+                            </h5>
+                            <a href="mailTo:enjoydessert@gmail.com" class="footer__contact__link">enjoydessert@gmail.com</a>
+                            <h5 class="footer__contact">
+                                Tel
+                            </h5>
+                            <a href="mailTo:enjoydessert@gmail.com" class="footer__contact__link">0987917291</a>
+                            <h5 class="footer__contact">
+                                Address
+                            </h5>
+                            <a href="mailTo:enjoydessert@gmail.com" class="footer__contact__link">新北市新店區甜點街91號7樓之2</a>
+                        </div>
+                        <div class="col-xl-4 col-lg-3 icon-group">
+                            <a href="#">
+                               <img src="practice_image/facebook.svg" class="footer__icon" alt="">
+                            </a>
+                            <a href="#"><img src="practice_image/instagram.svg" class="footer__icon" alt=""></a>
+                        </div>
+                    </div>
+                    <p class="footer__copyright">CopyrightⒸ2021JOY DESSERT</p>
+                </div>
+            </div>
+            <!-- End footer-->
+
+        </div>
+       
+    </div>
+
+    <!-- JS -->
+    <script src="practice_js/jquery.js"></script>
+    <script src="practice_js/fullpage.min.js"></script>
+    <script src="practice_js/popper.min.js"></script>
+    <script src="practice_js/bootstrap.min.js"></script>
+    <script src="practice_js/custom.js"></script>
+</body>
+</html>
